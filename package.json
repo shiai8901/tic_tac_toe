@@ -1,0 +1,21 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "a command line tic-tac-toe game from scratch for two players.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node client/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiai8901/tic_tac_toe.git"
+  },
+  "keywords": [
+    "decision",
+    "tree",
+    "algorithm"
+  ],
+  "author": "Ai Shi",
+  "license": "ISC"
+}
