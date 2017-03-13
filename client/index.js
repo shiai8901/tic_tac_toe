@@ -30,9 +30,10 @@ Game.prototype.move = function(row, col) {
 	} else {
 		this.currentPlayer = 'O';
 	}
-	if (this.board[row][col] === '-') {
+	if (row > 2 || col > 2) {
+		console.log('Invalid move! It is out of boundry!'); 
+	} else if (this.board[row][col] === '-') {
 		this.board[row][col] = this.currentPlayer;
-	console.log('inside move', this.currentPlayer);
 		this.moveCount++;
 		this.checkWin();
 		this.render();
