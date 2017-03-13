@@ -4,7 +4,6 @@
   "description": "a command line tic-tac-toe game from scratch for two players.",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "start": "node client/index.js"
   },
   "repository": {

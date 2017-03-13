@@ -14,10 +14,6 @@ a command line tic-tac-toe game for two players made from scratch
 - The game can prevent invalid move attempt
 - The game can detect and display who won
 
-## Tests
-
-Describe and show how to run the tests with code examples.
-
 ## Contributors
 
 Ai Shi
